@@ -1,0 +1,158 @@
+/* clearfix
+------------------------------------------*/
+.clear{ clear: both; }
+.clearfix{ zoom: 1; }
+.clearfix:after{ content: ""; display: table; clear: both; }
+
+
+/* topPage
+------------------------------------------*/
+#main{
+    padding-bottom: 60px;
+}
+
+#mainImageArea{
+    background: url(images/main_image_bg.png) center center no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+#mainImageWrap{
+    width: 800px;
+    padding: 60px 0;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.page-header .h1_caption{
+    text-align: center;
+    color: #df3756;
+    font-size: 42px;
+    letter-spacing: 2px;
+}
+
+.page-header h1{
+    font-weight: normal;
+    font-size: 20px;
+    color: #777;
+    display: table;
+    margin: 0 auto;
+}
+
+.page-header h1:before{
+    content: '';
+    height: 1px;
+    width: 16px;
+    display: block;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+    background: #777;
+}
+
+.page-header h1:after{
+    content: '';
+    height: 1px;
+    width: 16px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: right;
+    background: #777;
+}
+
+.service_once{
+    background: #f7f7f7;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.service_once_image{
+    float: left;
+    margin-right: 20px;
+}
+
+.service_once_title{
+    font-size: 32px;
+    line-height: 1;
+    color: #333;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+.service_once_caption{
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 16px;
+}
+
+.service_once_txt{
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+}
+
+.prof_image{
+    display: block;
+    margin: 0 auto;
+}
+
+.prof_name{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.prof_git_url{
+    font-size: 14px;
+    text-align: center;
+}
+
+.prof_git_url a{
+    color: #029ade;
+}
+
+.prof_git_url:before {
+    content: '';
+    background: url(images/git_icon.png) 0 0 no-repeat;
+    padding: 7px 15px;
+    margin-right: 7px;
+}
+
+.prof_txt{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.copyright{
+    background: #585858;
+    color: #fff;
+    padding: 24px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* bootstrap override
+------------------------------------------*/
+.navbar {
+    margin-bottom: 0px;
+}
+
+.page-header {
+    border: 0;
+}
+@media (min-width: 768px){
+    .navbar-nav>li>a {
+        border-right: 1px solid #ccc;
+    }
+    
+    .navbar-nav>li:first-child>a{
+        border-left: 1px solid #ccc;
+    }
+}
+
+@media (max-width: 768px){
+
+}/* media */

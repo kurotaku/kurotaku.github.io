@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta name="keywords" content="webサービス, web制作" />
+    <meta name="description" content="web制作を行っている、Kuroiwa Takuのポートフォリオページです。サービスの紹介やプロフィールを記載しております。" />
+    <title>KuroTaku's portfolio</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+    <link rel='stylesheet' href='style.css' type='text/css' media='all'/>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">KuroTaku's portfolio</a>
+                </div>
+                <div class="collapse navbar-collapse" id="site-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#serviceArea">service</a></li>
+                        <li><a href="#profileArea">profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+    </header>
+    <div id="mainImageArea">
+      <div id="mainImageWrap">
+        <img src="images/main_logo.png" id="mainImageLogo" />
+      </div>
+      
+    </div>
+    <div class="container" id="main">
+        <div class="page-header" id="serviceArea">
+            <p class="h1_caption">SERVICE</p>
+            <h1>サービス紹介</h1>
+        </div><!-- .page-header -->
+        
+        <div class="service_once clearfix">
+            <img src="images/service_01.png" class="service_once_image" />
+            <h2 class="service_once_title">Lunch Wagon -ランチワゴン-</h2>
+            <h3 class="service_once_caption">ワゴン販売弁当情報サービス</h3>
+            <p class="service_once_txt">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。 </p>
+        </div><!-- .service_once -->
+        
+        <div class="service_once clearfix">
+            <img src="images/service_02.png" class="service_once_image" />
+            <h2 class="service_once_title">アニコエ</h2>
+            <h3 class="service_once_caption">簡単アフレコSNS</h3>
+            <p class="service_once_txt">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。 </p>
+        </div><!-- .service_once -->
+        
+        <div class="service_once clearfix">
+            <img src="images/service_03.png" class="service_once_image" />
+            <h2 class="service_once_title">DOYA! -ドーヤ-</h2>
+            <h3 class="service_once_caption">コレクター向け収集自慢SNS</h3>
+            <p class="service_once_txt">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。 </p>
+        </div><!-- .service_once -->
+        
+        <div class="page-header" id="profileArea">
+            <p class="h1_caption">PROFILE</p>
+            <h1>プロフィール</h1>
+        </div><!-- .page-header -->
+        
+        <img src="images/prof_image.png" class="prof_image" />
+        <h2 class="prof_name">KUROIWA TAKU</h2>
+        <h3 class="prof_git_url"><a href="https://github.com/kurotaku">https://github.com/kurotaku</a></h3>
+        <p class="prof_txt">Webデザイナー / エンジニア<br />
+        Web制作会社にて、ディレクター、デザイナー、エンジニアを経験しております。<br />
+        主にWordpressを用いたホームページ制作を行っております。
+        </p>
+        
+    </div><!-- #main -->
+    <footer>
+        <div class="copyright">&copy; 2016 KuroTaku</div>
+    </footer>
+</body>
 </html>
+    
+    
